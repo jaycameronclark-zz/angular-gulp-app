@@ -25,6 +25,7 @@
     "gulp-sass": "^0.7.1",
     "gulp-uglify": "^0.3.0",
     "gulp-util": "^2.2.14",
+    "node-bourbon": "^1.2.3",
     "tiny-lr": "0.0.7"
   }
 }
