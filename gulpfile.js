@@ -97,6 +97,6 @@ gulp.task('watch', ['lint'], function() {
   ]);
 
   gulp.watch(['app/**/*.html'], [
-        'views'
-    ]);
+    'views'
+  ]);
 });

@@ -3,9 +3,7 @@
   "version": "0.0.1",
   "description": "Portfolio",
   "main": "app.js",
-  "scripts": {
-    "test": "test"
-  },
+  "scripts": {},
   "author": "Jay Clark",
   "license": "ISC",
   "devDependencies": {
@@ -27,5 +25,8 @@
     "gulp-util": "^2.2.14",
     "node-bourbon": "^1.2.3",
     "tiny-lr": "0.0.7"
+  },
+  "engines": {
+    "node": ">=0.10.0"
   }
 }
