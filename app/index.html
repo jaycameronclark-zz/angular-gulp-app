@@ -1,14 +1,19 @@
 <!doctype html>
-<html lang="en" ng-app="myApp">
+<html lang="en" ng-app="app">
 <head>
-  <title>Pivvt</title>
+  <title>Pivvt | My Portfolio and Writings about Code</title>
+  <link rel="stylesheet" type="text/css" href="/css/normalize.css">
   <link rel="stylesheet" type="text/css" href="/css/app.css">
 </head>
-<body ng-controller="WelcomeCtrl">
-	<div class="wrapper">
-	  <h1>Boilerplate...</h1>
-	  <p>{{testVar}}</p>
-  </div>
+<body ng-controller="HomeCtrl">
+
+	<section>
+		<article>
+		  <h1>{{msgTitle}}</h1>
+		  <p>{{welcomeMsg}}</p>
+	  </article>
+  </section>
+
   <script src="/js/bundle.js"></script>
 </body>
 </html>
